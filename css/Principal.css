@@ -1,0 +1,148 @@
+.main_contenedor{
+    padding-top: 70px;
+    width: 100%;
+    height: auto;
+}
+
+.link__activado{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+/*titulo  de pagina*/
+.container__titulo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.container__titulo p{
+    width: 50%;
+    margin:auto;
+    height: auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.container__titulo p a{
+    color:red;
+}
+
+.container__titulo h1{
+    padding: 40px;
+}
+.container__titulo h1 b{
+    color:rgb(197, 75, 75);
+}
+.section{
+    padding-bottom: 20px;
+}
+.container__titulo__form{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.buscar input{
+    outline: none;
+    padding: 3px;
+    border: 0;
+    color:rgb(112, 112, 112) !important;
+    background:rgba(230, 230, 230, 0.096);
+    border-bottom: 2px solid red;
+}
+.buscar button{
+    border:0;
+    background:rgba(255, 0, 0, 0);
+}
+.usuario i{
+    font-size:25px;
+}
+.usuario  i p{
+    font-size:10px;
+    margin-left: 0px;
+    font-family: 'calibri light';
+    color:rgb(114, 114, 114);
+}
+
+
+
+/*titulo  de pagina*/
+.main__section{
+    width: 100%;
+    height:auto;
+
+}
+
+.aside_top{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid red;
+}
+
+.aside_top ul{
+    width: 100%;
+}
+
+.aside_top ul li a{
+    padding :0 !important;
+    margin-left: 20px !important;
+    color:rgb(73, 73, 73) !important;
+}
+.aside_top ul li a i{
+    padding :0 !important;
+    color:rgb(248, 0, 0) !important;
+}
+
+.nav .active{
+    background: rgb(255, 255, 255) !important;
+    border-bottom: 5px solid red !important;
+    border-radius: 0 !important;
+}
+
+form{
+    width: 90%;
+    display: block;
+    padding:10px;
+    margin:auto;
+    text-align: center;
+}
+
+form input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom:10px;
+    outline:none;
+    color:rgb(83, 83, 83);
+    background:rgb(245, 245, 245);
+    border: 0;
+}
+form a{
+    width:100%;
+    margin-bottom:10px;
+    background:rgb(75, 75, 75);
+    text-decoration:none;
+}
+
+.text-muted{
+    margin-top:10px;
+}
+
+/*section dos*/
+
+.dos{
+    background:red;
+}
+
+@media (max-width: 800px){
+    
+    .container__titulo p{
+        width: 80%;
+    }
+}
+
